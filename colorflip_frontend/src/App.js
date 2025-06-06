@@ -82,17 +82,18 @@ function App() {
             className="btn btn-large"
             data-testid="flip-color-btn"
             style={{
-              backgroundColor: '#4caf50',
-              color: '#ffffff',
+              backgroundColor: '#FFEB3B',       // Yellow background
+              color: '#222222',                 // Dark text for readability
               borderRadius: 8,
               border: 'none',
               fontWeight: 600,
               fontSize: '1.2rem',
               letterSpacing: 0.5,
               padding: '16px 36px',
-              boxShadow: '0 4px 18px rgba(76,175,80,0.13)',
+              boxShadow: '0 4px 18px rgba(255,235,59,0.13)', // light yellow shadow
               cursor: 'pointer',
               marginBottom: 32,
+              outline: 'none',
             }}
             onClick={handleFlipColor}
           >
